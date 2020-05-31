@@ -1,3 +1,89 @@
-Body {
-  font-size: 50px;
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+		font-family:  helvetica ;
+}
+h1
+{
+		text-align: center;
+}
+.container
+{
+		
+		padding: 25px;
+}
+.section
+{ 
+		background-color: #999;
+		border: 1px solid black;
+		float: left;
+		padding: 20px;
+		padding-top: 70px;
+		position: relative;
+ } 	
+
+.title
+{
+ 		width: 40%;
+ 		height: 14%;
+ 		position: absolute;
+ 		right: 0;
+ 		top: 0;
+ 		text-align: center;
+ 		border: 1px solid black;
+}
+.T1
+{
+ 		background-color: pink;
+}
+.T2
+{
+ 		background-color: yellowgreen;
+}
+ 	
+.T3
+{
+ 		background-color: #e5d198;
+}
+
+/*desktop version*/
+@media (min-width: 992px)
+{
+	
+.section
+{ 
+		margin: 3%;
+		width: 27%;		
+}
+ 	
+}
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+.section
+{ 
+		
+		margin: 3%;
+		width: 44%;
+
+		
+} 	
+.s3
+{
+ 		width: 94.5%
+}
+
+
+}
+/*mobile version*/
+@media (min-width: 0px) and (max-width: 767px)
+{
+.section
+{ 
+		margin: 3%;
+		width: 94.5%;
+}
 }
